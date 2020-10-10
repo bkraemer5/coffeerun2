@@ -1,0 +1,93 @@
+// install the "REST Client" extension in VSCode.
+@baseUrl=localhost:3000
+
+# COFFEE TYPES
+
+###
+
+# delete triple espresso orders
+DELETE http://{{baseUrl}}/coffeeorders/coffee/triple%20espresso HTTP/1.1
+
+###
+
+#delete earl grey orders
+DELETE http://{{baseUrl}}/coffeeorders/coffee/earl%20grey HTTP/1.1
+
+###
+
+# delete americano orders
+DELETE http://{{baseUrl}}/coffeeorders/coffee/americano HTTP/1.1
+
+###
+
+# FLAVOR ORDERS
+
+###
+
+# delete flavor None
+DELETE http://{{baseUrl}}/coffeeorders/flavor/None HTTP/1.1
+
+###
+
+# delete flavor Mocha
+DELETE http://{{baseUrl}}/coffeeorders/flavor/Mocha HTTP/1.1
+
+###
+
+# delete flavor Pumpkin Spice
+DELETE http://{{baseUrl}}/coffeeorders/flavor/Pumpkin%20Spice HTTP/1.1
+
+###
+
+# delete flavor Caramel
+DELETE http://{{baseUrl}}/coffeeorders/flavor/Caramel HTTP/1.1
+
+###
+
+# delete flavor Vanilla
+DELETE http://{{baseUrl}}/coffeeorders/flavor/Vanilla HTTP/1.1
+
+###
+
+# STRENGTH ORDERS
+
+# delete strength == 80
+DELETE http://{{baseUrl}}/coffeeorders/strength/80 HTTP/1.1
+
+###
+
+# delete strength == 60
+DELETE http://{{baseUrl}}/coffeeorders/strength/60 HTTP/1.1
+
+###
+
+# delete strength == 100
+DELETE http://{{baseUrl}}/coffeeorders/strength/100 HTTP/1.1
+
+###
+
+# COFFEE SIZES
+
+# delete short orders
+DELETE http://{{baseUrl}}/coffeeorders/size/short HTTP/1.1
+
+###
+
+# delete tall orders
+DELETE http://{{baseUrl}}/coffeeorders/size/tall HTTP/1.1
+
+###
+
+# delete grande orders
+DELETE http://{{baseUrl}}/coffeeorders/size/grande HTTP/1.1
+
+###
+
+# DELETE ALL
+
+###
+
+# deletes all the orders from the collection
+DELETE http://{{baseUrl}}/coffeeorders HTTP/1.1
+
+###
