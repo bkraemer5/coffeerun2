@@ -1,0 +1,3 @@
+[submodule "CoffeeOrders"]
+	path = CoffeeOrders
+	url = https://github.com/audstanley/coffeeorders.git
